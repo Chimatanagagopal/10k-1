@@ -1,0 +1,54 @@
+td:hover{
+    color: aqua;
+    
+    transform: scale(1.1);
+}
+.chess tr:nth-child(odd) td:nth-child(even){
+    background-color: green;
+    font-size:xx-large;
+    
+    align-items: center;
+    
+}
+.chess tr:nth-child(odd) td:nth-child(odd){
+        background-color: pink;
+        font-size:xx-large; 
+        align-items: center;     
+    }
+    .chess tr:nth-child(even) td:nth-child(odd){
+        background-color: green;
+        font-size:xx-large;
+        align-items: center;
+    }
+.chess tr:nth-child(even) td:nth-child(even){
+            background-color: pink;
+            font-size:xx-large;  
+            align-items: center;    
+    }
+    td{
+        width:20px;
+        height:20px;
+        transition:1s ease
+    }
+td:hover{
+    background-color: aqua;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width:0px;
+    
+}
+p{
+    display: inline-block;
+    position:relative;
+
+    background-color: rgb(0, 255, 38);
+    font-size:xx-large;
+    margin: 0px;
+}
+
+
+    
+
