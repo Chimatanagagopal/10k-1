@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #eat,#drink,.y,.z{
+            display: none;
+        }
+        #eat:checked ~.y,#drink:checked ~.z{
+        display: block;
+        }
+        .label-container{
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .label-container>label{
+            cursor: pointer;
+        }
+#eat:checked~.one {
+    background-color: #585858;
+    color: white;
+}
+
+#drink:checked~.two {
+    background-color: #585858;
+    color: white;
+}
+#eat:checked~.label-container>#x,
+#drink:checked~.label-container>#y {
+    background-color: #797979;
+    color: white
+}
+    </style>
+</head>
+<body>
+    <div class="count">
+        <div class="label-container">
+        <label for="eat" >Eat</label>
+        <label for="drink" >Drink</label></div>
+        <input type="radio" id="eat" name="x" checked class="one">
+        <input type="radio" id="drink" name="x" class="two" >
+    <div class="y">Naga</div>
+    <div class="z">Gopal</div></div>
+</body>
+</html>

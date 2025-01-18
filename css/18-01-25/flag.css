@@ -1,0 +1,159 @@
+.main{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;  
+    align-items: center; 
+}
+.flag{
+    width: 400px;
+    height: 600px;
+    border-left: 4px solid black;
+}
+.red{
+    background-color:#FBB917;
+    border: 1.5px solid black;
+    width:400px;
+    height:90px
+}
+.white{
+    background-color:white;
+    border: 1.5px solid black;
+    width:400px;
+    height:90px;
+    position:relative;
+    fle
+}
+.green{
+    background-color:green;
+    border: 1.5px solid black;
+    width:400px;
+    height:90px
+}
+.ashok{
+    position:absolute;
+    width:100px;
+    height:90px ;
+    border: 1px solid #000089;
+    border-radius: 50%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#two{
+    height: 90px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(180deg);
+}
+#three{
+    height: 90px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(165deg);
+}
+#four{
+    height: 90px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(150deg);
+}
+#five{
+    height: 93px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(135deg);
+}
+#six{
+    height: 95px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(120deg);
+}
+#seven{
+    height: 97px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(105deg);
+}
+#one{
+    height: 97px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(90deg);
+}
+#eight{
+    height: 97px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(75deg);
+}
+#nine{
+    height: 94px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(60deg);
+}
+#ten{
+    height: 94px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(45deg);
+}
+#eleven{
+    height: 92px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(30deg);
+}
+#tt{
+    height: 90px;
+    position:absolute;
+    left: 50%;  
+    border: 1px solid #000089;
+    transform:rotate(15deg);
+}
+.bred{
+    width:100px;
+    height:40px;
+    background-color: #FBB917;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    left:40px
+}
+.bwhite{
+    width:150px;
+    height:40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    left:20px
+}
+.bgreen{
+    width:200px;
+    height:40px;
+    background-color: green;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    left:0px
+}
+h1{
+    line-height: 1.5px;
+    letter-spacing: 1.5vh;
+}
