@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <link rel="stylesheet" href="./units.css">
+</head>
+<body>
+    Task-1
+    <div class="box-px">Box with px units</div>
+    <p><b>Explination:</b>Here pixel unit is absolute,So it's does not depends on parent or viewport. </p>
+    Task-2
+    <div class="parent-percent">
+        <div class="child-percent">Box with % units</div>
+    </div>
+    <p><b>Explination:</b> % is a relative ,so it's depends on parent.Here parent-percent is parent and child-percent is child of parent and div tag is block level element so it occupies 100% width.</p>
+    Task-3 
+    <p class="rem-paragraph">This paragraph uses rem units.</p>
+    <p><b>Explination:</b> rem is relative,it's depends on the root elemrnt here root element is html tag by default html font size is 16px.So it cal 16px*2=32px.</p>
+    Task-4
+    <div class="parent-em">
+        <p class="child-em">This paragraph uses em units.</p>
+    </div>  
+    <p><b>Explination:</b>em is relative,em unit depends on parent element,when parent element size is increses automatically increase child size also. </p>  
+    task-5
+    <div class="box-vw">Box with vw units</div>
+    <p><b>Explination:</b>vw relative,viewport width depends on the width of your white screen.</p>
+    Task-6
+    <div class="box-vh">Box with vh units</div>
+    <p><b>Explination:</b>vh relative,viewport height depends on the height of your white screen.</p>
+    Task-7 
+   <div class="square-vmin">Square with vmin units</div>
+   <p><b>Explination:</b>vmin (viewport minimum) - represents the smaller value of viewport's width and height. 1vmin is equal to 1% of the viewport's smaller dimension (width or height).</p>
+   Task-8 
+   <div class="square-vmax">Square with vmax units</div>
+   <p><b>Explination:</b>vmax (viewport maximum) - represents the larger value of viewport's width and height.</p>
+   Task-9 
+   <div class="parent-relative">
+    <div class="child-absolute">Child Box</div>
+</div>
+Task-10
+<div class="parent-font">
+    Parent Text
+    <div class="child-font">Child Text (Inherits Font Size)</div>
+</div>
+<p><b>Explination:</b>here Inherits Font Size depends on the parent font size</p
+</body>
+</html>
