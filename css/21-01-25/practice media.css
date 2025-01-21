@@ -1,0 +1,126 @@
+.main{
+    display:flex;
+    justify-content: space-between;
+}
+
+.item1{
+    width:70px;
+    height:50px;
+    background-color: aqua;
+
+}
+.t1{
+    width:70px;
+    height:50px;
+    background-color:red;  
+}
+.t2{
+width:70px;
+    height:50px;
+    background-color: yellow;
+}
+.container{
+    background-color: lightsalmon;
+}
+.ll{
+    box-sizing: border-box;
+    width:100%
+}
+.image{
+    width:25%
+}
+
+aside{
+    border:2px solid black;
+    width:25vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap:5px;
+    position: relative;
+    left:-100%;
+    transition: 0.5s ease;
+}
+#menu{
+    display:none;
+}
+aside a{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
+aside a:hover{
+    background-color: aqua;
+}
+#menu:checked ~aside{
+    left:1vw
+    
+}
+
+@media screen and (min-width:500px) and (max-width:800px){
+h1{
+    background-color: green;
+}
+}
+
+
+@media screen and (width >= 480px){
+    .main{
+        flex-direction: column;
+    }}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    body{
+        background-color:lightblue;
+    }   
+}
+@media screen and (min-width : 600px) and (max-width : 1200px){
+    p{
+    font-size: 18px;
+}
+}
+
+@media screen and (width<=400px){
+    .coffeeshop{
+        display: none;
+    }
+}
+
+@media screen and (width>=1024px){
+    .container{
+        padding: 20px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1200px) {
+    header{
+        background-color:lightgray;
+    }
+}
+@media screen and (width<=480px){
+    p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 600px){
+    .image{
+        width:100%;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1200px){
+    a{
+        color:green
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px){
+    h2{font-size: 24px;}
+}
+@media screen and (width>=1010px){
+     .black{
+        border:2px solid black
+     }
+}
+@media screen and (min-width:800px) and (max-width:1200px){
+    aside{
+       width: 250px
+    }
+}

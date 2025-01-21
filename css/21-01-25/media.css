@@ -17,17 +17,20 @@
     margin: 20px;
     padding: 10px;
     border: 2px solid black;
+    width:40px
 }
 .green{
     background-color: green;
     margin: 20px;
     padding: 10px;
     border: 2px solid black;
+    width:40px
 }
 .flex-items{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    
 }
 .sub{
     display: flex;
