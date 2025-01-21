@@ -1,0 +1,53 @@
+.parent{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(219, 21, 21);
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.orange{
+    margin: 25px;
+    padding: 10px;
+    background-color: orange;
+    border: 2px solid black;
+    width:40px
+}
+.yellow{
+    background-color: yellow;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.green{
+    background-color: green;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.flex-items{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.sub{
+    display: flex;
+    border: 2px solid black;
+    margin: 7px;
+}
+@media screen and (max-width : 500px){
+    .sub{
+        border:none
+    }
+    .yellow{
+        display: none;
+    }
+    .green{
+        background-color: white;
+        color:white;
+        
+    }
+    .flex-items{
+        flex-direction: column;
+    }
+
+}
