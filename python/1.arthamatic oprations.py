@@ -27,5 +27,22 @@ print(_yuvaraj[-1])
 
 print(_yuvaraj[0:4])
 print(_yuvaraj[-4:-1])  #sting slicing
+print(_yuvaraj[ : ])
+
 
 print(len(_yuvaraj)) #length function
+
+s = "abcdefghi"
+print(s[4:1:-1])
+print(s[-1:5:-1])
+print(s[4:1:-2])
+
+x
+
+
+
+
+
+
+
+
