@@ -1,229 +1,270 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+
 }
-.pink{
+
+.pink {
     background-color: lightsalmon;
     padding-bottom: 40px;
 }
-.head{
-    width:100%;
+
+.head {
+    width: 100%;
     height: 100vh;
 }
-.image1{
+
+.image1 {
     background-image: url("	https://www.w3schools.com/w3images/wedding_couple.jpg");
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     position: relative;
     border-radius: 2px;
 }
-#kl{
+
+#kl {
     font-size: 4rem;
     line-height: 0;
 }
-#o,#g{
-    font-size: 2rem; 
+
+#o,
+#g {
+    font-size: 2rem;
 }
 
-.jane{
-margin: 0px;
-padding: 0px;
-position: absolute;
-text-align: center;
-left:35%;
-top:40%;
-color:white;
-line-height: 0;
+.jane {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 40%;
+    color: white;
+    line-height: 0;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
-    
+
 }
-main span{
+
+main span {
     font-size: 2em;
     color: gray;
-    margin-top: 40px;   
+    margin-top: 40px;
 }
-.image2{
-    background-image:url("//www.w3schools.com/w3images/wedding_couple2.jpg");
-    width:950px ;
-    height:500px;
+
+.image2 {
+    background-image: url("//www.w3schools.com/w3images/wedding_couple2.jpg");
+    width: 950px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 30px; 
+    margin: 30px;
     border-radius: 2px;
 }
-main a{
+
+main a {
     font-size: 25px;
     background-color: black;
-    color:white;
+    color: white;
     padding: 13px 17px 13px 17px;
     border-radius: 2px;
     text-decoration: none;
     margin: 20px;
 }
-main a:hover{
-background-color: gray;
-color:black
+
+main a:hover {
+    background-color: gray;
+    color: black
 }
-.image3{
+
+.image3 {
     background-image: url("https://www.w3schools.com/w3images/flowers.jpg");
-    width:100%;
-    height:450px;
+    width: 100%;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.ss{
+
+.ss {
     position: absolute;
-    top:40%;
-    left:40%;
-    color:white;
+    top: 40%;
+    left: 40%;
+    color: white;
     text-align: center;
-    
+
 }
-.ss h1{
+
+.ss h1 {
     font-size: 3.2rem;
 }
-.section{
-    display:flex;
+
+.section {
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
 }
 
-#WEDDING{
+#WEDDING {
     font-size: 25px;
     background-color: black;
-    color:white;
+    color: white;
     padding: 13px 17px 13px 17px;
     border-radius: 2px;
     margin: 20px;
 }
-.image4{
+
+.image4 {
     background-image: url("https://www.w3schools.com/w3images/wedding_location.jpg");
-    width:950px ;
-    height:500px;
+    width: 950px;
+    height: 500px;
     border-radius: 2px;
 }
-.one,.two{
+
+.one,
+.two {
     text-align: center;
 }
-.item3{
-    display:flex;
+
+.item3 {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 40px 0px 0px 0px;
 }
-.kk{
+
+.kk {
     margin: 0px;
     background-color: lightpink;
 }
-.item5{
+
+.item5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px;
 }
-.item5>p:nth-last-child(1){
+
+.item5>p:nth-last-child(1) {
     font-size: 25px;
     background-color: black;
-    color:white;
+    color: white;
     padding: 13px;
     border-radius: 2px;
     margin-bottom: 50px;
 }
-.item5>p:nth-last-child(1):hover{
+
+.item5>p:nth-last-child(1):hover {
     background-color: gray;
-    color:black
+    color: black
 }
-.black{
-    width:100%;
-    height:80px;
+
+.black {
+    width: 100%;
+    height: 80px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: start;
 }
-.black p{
-    color:white
+
+.black p {
+    color: white
 }
-bottom{
+
+bottom {
     display: flex;
     position: fixed;
     bottom: 0%;
-    width:100%;
+    width: 100%;
     justify-content: space-around;
     padding: 3px;
     background-color: white;
-    z-index:999;
+    z-index: 999;
     opacity: 0.5;
 }
-nav{
+
+nav {
     padding: 10px;
-    width:100%;
+    width: 100%;
     text-align: center;
 }
-nav:hover{
+
+nav:hover {
     background-color: gray;
-    color:black;  
-}
-#qw:hover{
-    background-color: black;
-    color:white;   
+    color: black;
 }
 
-@media screen and (max-width:500px){
-        .image2{
-            width:380px ;
-            height:400px;
-            background-repeat: no-repeat;
-            object-fit: cover;
-            background-position: cover;
+#qw:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+    .image2 {
+        width: 380px;
+        height: 400px;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: cover;
     }
-    main span{
+
+    main span {
         font-size: 25px;
     }
-    main{
+
+    main {
         padding-left: 10%;
         padding-right: 10%;
     }
-    .ss{
-        top:30%;
-        left:20%;
+
+    .ss {
+        top: 30%;
+        left: 20%;
     }
-    .ss h1{
+
+    .ss h1 {
         font-size: 35px;
     }
-    #WEDDING{
+
+    #WEDDING {
         font-size: 20px;
     }
-    .section{
+
+    .section {
         padding-left: 10%;
         padding-right: 10%;
     }
-    .image4{
-        width:380px ;
-        height:400px;
+
+    .image4 {
+        width: 380px;
+        height: 400px;
         background-repeat: no-repeat;
         background-position: cover;
     }
-    #kl{
-        font-size: 2rem;}
-    #o,#g{
-        font-size:20px;
+
+    #kl {
+        font-size: 2rem;
     }
-    .item5 h1{
+
+    #o,
+    #g {
+        font-size: 20px;
+    }
+
+    .item5 h1 {
         font-size: 2em;
     }
 }
