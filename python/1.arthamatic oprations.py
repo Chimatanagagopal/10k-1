@@ -59,3 +59,5 @@ print(int(True))
 print(tuple(range(2,4)))
 print(list(range(2,100,2)))
 print(list(range(100,1,-1)))
+print(22>>2)
+
