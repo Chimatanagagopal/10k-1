@@ -238,19 +238,116 @@
 #     if i not in g:
 #         g.append(i)
 # print(g)
-str="hello world"
-str1="aeiou"
-b=""
-for i in str:
-    for j in str1:
-        if i==j:
-            b+=i
-print(b.count(b))
+# str="hello world"
+# str1="aeiou"
+# b=""
+# for i in str:
+#  print("gopal")
 
 
 
 
+# a=2
+# # print(type(a))
+# # print(type(str(a)))
+# # print(type(list(a)))
+# print(tuple(a))
+# print()
 
+# print(2 and 4)
+# print(True and False) 
+# print(0 and False) 
+# print(5 and "")
+# print(12 ^ 24)
+# range(0,15)
+
+
+# list=[1,2,4,5,6,8]
+# for i in list[::-1]:
+#  print(i)
+# n=1
+# while n<5:
+#     print(n)
+#     n+=1
+
+
+# if condition:
+#     statement
+# else:
+#     statememt
+      
+# a=26
+# if a % 2== 0:
+#     print("divisible by 2")
+# else:
+#     print("not divisible by 2")
+
+import numpy as np
+# a=np.array([[1,2,3], [3,  4,"hjkl"]])
+# print(a,a.ndim)
+# b=np.array(28)
+# print(len(a))
+# b=np.arange(1,22,2)
+# print(b)
+# print(b.dtype)
+# print(np.eye(4,dtype=float))
+# print(np.zeros((3,5),dtype='int'))
+# print(np.ones((3,5)))
+# print(np.full((3,5),10))
+# x=[1,2,3]  
+# print(np.diag(x))
+
+# x=np.arange(1,17)
+# print(x[::-1])
+# print(x.flatten())
+# n=x.reshape((4,4))
+# print(n)
+# v=n.ravel()
+# print(v)
+# x1=5
+# x2=5
+# np.shares_memory(x1, x2)
+# print(id(x1))
+# print(id(x2))
+# x=np.arange(1,17)
+# y=x.reshape(4,4)
+# print(y[y>3])
+# print(y.transpose())
+# print("------------")
+# print(y)
+
+
+# '''yes=[23,56,78,99]
+# b=yes[0]
+# for i in yes:
+#     if i>b:
+#         b=i
+# print(b)'''
+
+
+
+
+# g="madam"
+# k=""
+# for i in g:
+#     k=i+k
+# if k==g:
+#     print("Palidrome")
+# else:
+#     print("not palidrome")
+
+# h="madam"
+# k=""
+# for i in h:
+#     k=i+k
+# if k==h:
+#     print("Palidrome")
+# else:
+#     print("not palidrome")
+l=[1,2,3,5,6,7]
+for i in range(min(l),max(l)+1):
+    if i not in l:
+        print(i)
     
 
 
@@ -261,6 +358,7 @@ print(b.count(b))
 
 
 
+  
 
 
 
@@ -268,7 +366,3 @@ print(b.count(b))
 
 
 
-   
-
-
-           
